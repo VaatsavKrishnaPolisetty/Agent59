@@ -184,6 +184,10 @@ with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/diploma.png", width=64)
     st.header("Appraisal Console")
     
+    if st.button("🗺️ Start Product Tour", use_container_width=True):
+        st.session_state.run_tour = True
+
+    
     # Role Simulator
     simulated_roles = [
         "Faculty Member",
@@ -1243,3 +1247,54 @@ else:
 
 st.markdown("---")
 st.caption("Agent 59 • Autonomous Faculty Performance Agent • Academic Multi-Agent Ecosystem v2.4")
+
+# -------------------------------------------------------------
+# PRODUCT TOUR INJECTION (Driver.js)
+# -------------------------------------------------------------
+if st.session_state.get("run_tour", False):
+    import streamlit.components.v1 as components
+    components.html("""
+    <script>
+        setTimeout(() => {
+            const parentDoc = window.parent.document;
+            
+            // Inject CSS
+            if (!parentDoc.querySelector('#driver-css')) {
+                const link = parentDoc.createElement('link');
+                link.id = 'driver-css';
+                link.rel = 'stylesheet';
+                link.href = 'https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css';
+                parentDoc.head.appendChild(link);
+            }
+            
+            // Function to run the tour
+            const runTour = () => {
+                const driver = window.parent.driver.js.driver;
+                const tour = driver({
+                    showProgress: true,
+                    steps: [
+                        { popover: { title: 'Welcome to Agent 59', description: 'This is the Multi-Agent Faculty Performance Appraisal System. Let\\'s take a quick tour!' } },
+                        { element: parentDoc.querySelector('[data-testid="stSidebar"]'), popover: { title: 'Navigation & Control', description: 'This is your command center. You can switch roles and select portals here.', side: "right", align: 'start' } },
+                        { element: parentDoc.querySelectorAll('[data-testid="stSelectbox"]')[0], popover: { title: 'Role Simulator', description: 'Agent 59 uses Dynamic RBAC. Change your role here to see how the app automatically restricts or grants data access.', side: "right", align: 'start' } },
+                        { element: parentDoc.querySelector('[data-testid="stRadio"]'), popover: { title: 'Portal Views', description: 'Depending on your role, different dashboards will appear here.', side: "right", align: 'start' } },
+                        { element: parentDoc.querySelectorAll('[data-testid="stSelectbox"]')[1], popover: { title: 'Faculty Selection', description: 'Select a faculty member here to view their specific scorecard and audit logs.', side: "right", align: 'start' } },
+                        { popover: { title: 'Explore!', description: 'Try logging in as a Head of Department to see the Multi-Agent Simulator, or HR to see institutional aggregates.' } }
+                    ]
+                });
+                tour.drive();
+            };
+            
+            // Inject JS
+            if (!parentDoc.querySelector('#driver-js')) {
+                const script = parentDoc.createElement('script');
+                script.id = 'driver-js';
+                script.src = 'https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js';
+                script.onload = runTour;
+                parentDoc.head.appendChild(script);
+            } else {
+                runTour();
+            }
+        }, 800);
+    </script>
+    """, height=0, width=0)
+    st.session_state.run_tour = False
