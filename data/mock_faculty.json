@@ -1,0 +1,577 @@
+[
+  {
+    "faculty_id": "F001",
+    "name": "Dr. Ramesh Rao",
+    "designation": "Senior Professor",
+    "department": "Computer Science & Engineering",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced Compiler Design",
+          "difficulty_rating": 1.5,
+          "class_size": 45,
+          "syllabus_coverage_percentage": 100,
+          "pass_rate_percentage": 100,
+          "student_feedback_score": 4.1
+        }
+      ],
+      "direct_teaching_hours_per_week": 14
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Optimizing Lexical Analysis for Quantum Architectures",
+          "doi": "10.1016/j.jcss.2025.101",
+          "index": "Scopus",
+          "quartile": "Q1"
+        },
+        {
+          "title": "A Novel Approach to Register Allocation",
+          "doi": "10.1145/3581234.3581235",
+          "index": "WoS",
+          "quartile": "Q1"
+        },
+        {
+          "title": "Verified Research Article (aaaab...)",
+          "doi": "10.1016/j.verified.202609131904",
+          "index": "Scopus",
+          "quartile": "Q1"
+        },
+        {
+          "title": "Scalable Multimodal Agents in Higher Education",
+          "doi": "10.1109/TAFFC.2026.112233",
+          "index": "Scopus",
+          "quartile": "Q1"
+        },
+        {
+          "title": "Verified Research Article (ggggggg...)",
+          "doi": "10.1016/j.verified.202609132027",
+          "index": "Scopus",
+          "quartile": "Q1"
+        }
+      ],
+      "patents": [
+        {
+          "title": "System and Method for Just-In-Time Compilation Optimization",
+          "status": "Granted",
+          "year": 2025
+        }
+      ],
+      "funded_grants": 1,
+      "phd_students_guided": 3
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council",
+        "Research Review Board"
+      ],
+      "fdps_attended": 18
+    }
+  },
+  {
+    "faculty_id": "F002",
+    "name": "Prof. Sneha Sharma",
+    "designation": "Assistant Professor",
+    "department": "Computer Science & Engineering",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Introduction to Web Development",
+          "difficulty_rating": 1.1,
+          "class_size": 120,
+          "syllabus_coverage_percentage": 100,
+          "pass_rate_percentage": 79,
+          "student_feedback_score": 4.8
+        },
+        {
+          "course_name": "Distributed Systems & Cloud Architecture",
+          "difficulty_rating": 1.5,
+          "class_size": 65,
+          "syllabus_coverage_percentage": 100,
+          "pass_rate_percentage": 100,
+          "student_feedback_score": 5.0
+        }
+      ],
+      "direct_teaching_hours_per_week": 18
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Evaluating Accessibility in Modern Frontend Frameworks",
+          "doi": "10.1109/ICWE59234.2025.00012",
+          "index": "Scopus",
+          "quartile": "Conference"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 0,
+      "phd_students_guided": 0
+    },
+    "service": {
+      "administrative_roles": [],
+      "committees": [
+        "Student Welfare Committee",
+        "Cultural Fest Organizing Committee"
+      ],
+      "fdps_attended": 15
+    }
+  },
+  {
+    "faculty_id": "F003",
+    "name": "Dr. Amit Patel",
+    "designation": "Associate Professor",
+    "department": "Electronics & Communication Engineering",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Database Management Systems",
+          "difficulty_rating": 1.2,
+          "class_size": 60,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 85,
+          "student_feedback_score": 3.2
+        }
+      ],
+      "direct_teaching_hours_per_week": 16
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Performance Analysis of NoSQL Databases",
+          "doi": "10.1007/978-3-031-12345-6_12",
+          "index": "Scopus",
+          "quartile": "Q3"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 0,
+      "phd_students_guided": 1
+    },
+    "service": {
+      "administrative_roles": [
+        "Lab In-charge"
+      ],
+      "committees": [
+        "Anti-Ragging Squad"
+      ],
+      "fdps_attended": 2
+    }
+  },
+  {
+    "faculty_id": "F004",
+    "name": "cc",
+    "designation": "Senior Professor",
+    "department": "Computer Science & Engineering",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Foundations of Computing",
+          "difficulty_rating": 1.1,
+          "class_size": 60,
+          "syllabus_coverage_percentage": 85,
+          "pass_rate_percentage": 75,
+          "student_feedback_score": 3.8
+        }
+      ],
+      "direct_teaching_hours_per_week": 14
+    },
+    "research": {
+      "publications": [],
+      "patents": [],
+      "funded_grants": 0,
+      "phd_students_guided": 0
+    },
+    "service": {
+      "administrative_roles": [],
+      "committees": [
+        "Department Academic Committee"
+      ],
+      "fdps_attended": 1
+    }
+  },
+  {
+    "faculty_id": "F100",
+    "name": "Prof. Cse Head",
+    "designation": "Professor",
+    "department": "CSE",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced CSE Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in CSE",
+          "doi": "10.1000/hod.cse.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F101",
+    "name": "Prof. Acse Head",
+    "designation": "Professor",
+    "department": "ACSE",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced ACSE Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in ACSE",
+          "doi": "10.1000/hod.acse.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F102",
+    "name": "Prof. It Head",
+    "designation": "Professor",
+    "department": "IT",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced IT Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in IT",
+          "doi": "10.1000/hod.it.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F103",
+    "name": "Prof. Biotech Head",
+    "designation": "Professor",
+    "department": "BIOTECH",
+    "school": "School of Applied Sciences",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced BIOTECH Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in BIOTECH",
+          "doi": "10.1000/hod.biotech.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F104",
+    "name": "Prof. Agriculture Head",
+    "designation": "Professor",
+    "department": "AGRICULTURE",
+    "school": "School of Applied Sciences",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced AGRICULTURE Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in AGRICULTURE",
+          "doi": "10.1000/hod.agriculture.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F105",
+    "name": "Prof. Mech Head",
+    "designation": "Professor",
+    "department": "MECH",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced MECH Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in MECH",
+          "doi": "10.1000/hod.mech.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F106",
+    "name": "Prof. Ece Head",
+    "designation": "Professor",
+    "department": "ECE",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced ECE Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in ECE",
+          "doi": "10.1000/hod.ece.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F107",
+    "name": "Prof. Civil Head",
+    "designation": "Professor",
+    "department": "CIVIL",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced CIVIL Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in CIVIL",
+          "doi": "10.1000/hod.civil.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  },
+  {
+    "faculty_id": "F108",
+    "name": "Prof. Eee Head",
+    "designation": "Professor",
+    "department": "EEE",
+    "school": "School of Engineering",
+    "teaching": {
+      "courses": [
+        {
+          "course_name": "Advanced EEE Topics",
+          "difficulty_rating": 1.4,
+          "class_size": 50,
+          "syllabus_coverage_percentage": 95,
+          "pass_rate_percentage": 88,
+          "student_feedback_score": 4.5
+        }
+      ],
+      "direct_teaching_hours_per_week": 10
+    },
+    "research": {
+      "publications": [
+        {
+          "title": "Recent Advances in EEE",
+          "doi": "10.1000/hod.eee.2025",
+          "index": "Scopus",
+          "quartile": "Q2"
+        }
+      ],
+      "patents": [],
+      "funded_grants": 1,
+      "phd_students_guided": 2
+    },
+    "service": {
+      "administrative_roles": [
+        "Head of Department (HoD)"
+      ],
+      "committees": [
+        "Academic Council"
+      ],
+      "fdps_attended": 5
+    }
+  }
+]

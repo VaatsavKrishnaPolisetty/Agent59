@@ -1,0 +1,35 @@
+{
+  "total_points": 100,
+  "categories": {
+    "teaching_and_pedagogy": {
+      "points": 40,
+      "description": "Syllabus completion, pass rate, student feedback, direct teaching hours",
+      "metrics": {
+        "syllabus_completion": { "weight": 10 },
+        "pass_rate": { "weight": 10 },
+        "student_feedback": { "weight": 10 },
+        "direct_teaching_hours": { "weight": 10 }
+      }
+    },
+    "research_and_ip": {
+      "points": 35,
+      "description": "Scopus/WoS indexed papers, Q1-Q4 tiers, funded grants, patents, PhD guidance",
+      "metrics": {
+        "scopus_wos_indexed_papers": { "weight": 10 },
+        "quartile_tiers": { "weight": 10 },
+        "funded_grants": { "weight": 5 },
+        "patents": { "weight": 5 },
+        "phd_guidance": { "weight": 5 }
+      }
+    },
+    "service_and_governance": {
+      "points": 25,
+      "description": "FDPs attended, administrative duties, committee work",
+      "metrics": {
+        "administrative_duties": { "weight": 10 },
+        "committee_work": { "weight": 10 },
+        "fdps_attended": { "weight": 5 }
+      }
+    }
+  }
+}
